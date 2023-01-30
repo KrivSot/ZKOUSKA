@@ -8,18 +8,14 @@ public class Penize {
     ArrayList<Integer> hodnota = new ArrayList<>();
 
     public Penize(){
-        typ.add("Bankovky");
-        typ.add("Bankovky");
-        typ.add("Bankovky");
-        typ.add("Bankovky");
-        typ.add("Bankovky");
-        typ.add("Bankovky");
-        typ.add("Mince");
-        typ.add("Mince");
-        typ.add("Mince");
-        typ.add("Mince");
-        typ.add("Mince");
-        typ.add("Mince");
+        for(int i = 0;i < 6;i++)
+        {
+            typ.add("Bankovky");
+        }
+        for(int i = 0;i < 6;i++)
+        {
+            typ.add("Mince");
+        }
         hodnota.add(5000);
         hodnota.add(2000);
         hodnota.add(1000);
