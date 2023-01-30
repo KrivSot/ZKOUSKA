@@ -15,7 +15,7 @@ public class gui extends JFrame {
 
     JTable jt;
     JButton btnSave;
-    int Hodnota; ArrayList<Penize> penizeList = new ArrayList<>(); ArrayList<Integer> pocetKs = new ArrayList<>();
+    int Hodnota;ArrayList<Integer> pocetKs = new ArrayList<>();
     models.FileOperation.CVSFileOperation cvs = new CVSFileOperation();
     String column[]= {"Typ platidla","Nominalni hodnota","pocet ks"};
     Penize penize = new Penize();
